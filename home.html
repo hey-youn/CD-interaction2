@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/home.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+		<title>Assignment 1: Cross-Platformm Procrastinating</title>
+	</head>
+	<body>
+		<img class="logo" src="assets/img/logo.png">
+		<div class="container" onclick="myFunction(this)">
+			<div class="bar1"></div>
+			<div class="bar2"></div>
+			<div class="bar3"></div>
+		</div>
+		<p class="head"><span class="blue">Core 2: Procrastination Studio.F.Sp22</span><span class="grey">></span> Assignments</p>
+		<br><br><hr class="ya">
+		
+		<div class="container2">
+				<ul>
+					<li class="list1" onclick="account.play();"><div class="circle"></div><br>Account</li>
+					<li class="list1" onclick="dashboard.play();">
+						<img src="assets/img/dashboard.png" id="img1">Dashboard</li>
+					<li class="list2" onclick="course.play();"><img src="assets/img/courses.png" id="img2">Course</li>
+					<li class="list1" onclick="group.play();"><img src="assets/img/groups.png" id="img3">Groups</li>
+					<li class="list1" onclick="calendar.play();"><img src="assets/img/calendar.png" id="img4">Calendar</li>
+					<li class="list1" onclick="inbox.play();"><img src="assets/img/inbox.png" id="img5"><br>Inbox</li>
+					<li class="list1" onclick="history.play();"><img src="assets/img/history.png" id="img6"><br>History</li>
+					<li class="list1" onclick="help.play();"><img src="assets/img/get-help.png" id="img7"><br>Get Help</li>
+				</ul>
+		</div>
+
+		<div class="sidebar">
+			<ul>
+				<li onclick="home.play();">Home</li>
+				<li onclick="assignments.play();"><span class="black">Assignments</span></li>
+				<li onclick="discussion.play();">Discussions</li>
+				<li onclick="grade.play();">Grades</li>
+				<li onclick="people.play();">People</li>
+				<li onclick="page.play();">Pages</li>
+				<li onclick="file.play();">Files</li>
+				<li onclick="syllabus.play();">Syllabus</li>
+				<li onclick="modules.play();">Modules</li>
+				<li onclick="collab.play();">Collaborations</li>
+				<li onclick="cr.play();">Course Reviews</li>
+				<li onclick="starfish.play();">Starfish</li>
+				<li onclick="cht.play();">Canvas How Tos</li>
+				<li onclick="lp.play();">Learning Portfolio</li>
+				<li onclick="attendance.play();">Attendance</li>
+				<li onclick="discussion.play();">Research Guide</li>
+			</ul>
+		</div>
+
+		<div class="box">
+			<div class="body-txt">
+				<p class="head1">Assignment 1: Cross-Platform Procrastinating</p>
+				<p class="point">0 Possible Points</p>
+				<button class="button" onclick="comment.play();">Add Comment</button>
+			</div>
+			<hr class="yap">
+		</div>
+		<div class="body-txt2">
+			<p id="os-smb">Details</p>
+
+				<p>In a world full of never-ending work and assignments, we are asked for our non-existant responsibilities that makes us sleep deprived and less suprisingly stressed. What would we, procrastinators, look like in 2022?</p>
+
+				<p>In this short project, we'll play with blissfully traveling through links to effectively procrastinate before we start our actual assignments. Your project will begin by staring into the computer for 5 minutes or going on Youtube with your phone until you feel like working. What can you do to procrastinate as much as possible?</p>
+
+			<p id="os-smb">Notes:</p>
+				<ul>
+					<li><span id="green">To begin with find the comment made by <span id="os-smb">"due tmr do tmr"</span> and click the channel</span></li>
+					<li>You must follow the instructions to follow through the links</li>
+					<li>Feel free to get sidetracked as much as you want</li>
+				</ul>
+			<a id="os-smb" href="https://www.youtube.com/watch?v=4zG36uoJX78">Click Here to Start</a>
+		</div>
+
+	</body>
+
+	<script type="text/javascript">
+		function myFunction(x) {
+		  x.classList.toggle("change");
+		}
+
+		var comment = new Audio();
+		comment.src="assets/audio/4.mp3";
+
+		var account = new Audio();
+		account.src="assets/audio/1.mp3";
+
+		var dashboard = new Audio();
+		dashboard.src="assets/audio/2.mp3";
+
+		var course = new Audio();
+		course.src="assets/audio/3.mp3";
+
+		var group = new Audio();
+		group.src="assets/audio/5.mp3";
+
+		var calendar = new Audio();
+		calendar.src="assets/audio/6.mp3";
+
+		var inbox = new Audio();
+		inbox.src="assets/audio/7.mp3";
+
+		var history = new Audio();
+		history.src="assets/audio/8.mp3"
+
+		var help = new Audio();
+		help.src="assets/audio/9.mp3";
+
+		var home = new Audio();
+		home.src="assets/audio/10.mp3";
+
+		var assignments= new Audio();
+		assignments.src="assets/audio/11.mp3";
+
+		var discussion= new Audio();
+		discussion.src="assets/audio/12.mp3";
+
+		var grade= new Audio();
+		grade.src="assets/audio/13.mp3";
+
+		var people = new Audio();
+		people.src="assets/audio/14.mp3";
+
+		var page= new Audio();
+		page.src="assets/audio/15.mp3";
+
+		var file= new Audio();
+		file.src="assets/audio/16.mp3";
+
+		var syllabus= new Audio();
+		syllabus.src="assets/audio/17.mp3";
+
+		var modules= new Audio();
+		modules.src="assets/audio/18.mp3";
+
+		var collab= new Audio();
+		collab.src="assets/audio/19.mp3";
+
+		var cr= new Audio();
+		cr.src="assets/audio/20.mp3";
+
+		var  starfish= new Audio();
+		starfish.src="assets/audio/21.mp3";
+
+		var cht= new Audio();
+		cht.src="assets/audio/22.mp3";
+
+		var lp= new Audio();
+		lp.src="assets/audio/23.mp3";
+
+		var attendance= new Audio();
+		attendance.src="assets/audio/24.mp3";
+
+
+
+
+
+	</script>
+
+	</html>
