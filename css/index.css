@@ -87,12 +87,12 @@ button{
     
 }
 
-button:hover {
+/*button:hover {
     transition: 0.5s;
     background-image: none;
     background-color: rgb(255, 191, 223);
     font-size: 30px;
-}
+}*/
 
 
 .options:nth-child(1){
