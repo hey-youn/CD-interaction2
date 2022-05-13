@@ -1,0 +1,23 @@
+img{
+    width: 80%;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    left: 10%;
+    z-index: 0;
+}
+
+body{
+    background-color: #FFDDEB;
+}
+
+a {
+    z-index: 1;
+    top: 14500px;
+    position:relative;
+    padding: 30px;
+    margin-bottom: 30px;
+    font-size: 200px;
+    justify-content: center;
+    left: 5%;
+}

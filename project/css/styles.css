@@ -1,0 +1,175 @@
+#txt-area {
+    width: 50%;
+    height: 100vh;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+
+body {
+    background-color: white;
+}
+
+.flash {
+    background-color: white;
+    animation-name: flashing;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes flashing {
+    0% {
+        background-color: white;
+    }
+    50% {
+        background-color: red;
+    }
+    100% {
+        background-color: white;
+    }
+}
+
+.work {
+    width: 40%;
+    position: absolute;
+    left: 55%;
+    top: 250px;
+}
+
+.screaming {
+    width: 40%;
+    position: absolute;
+    left: 55%;
+    top: 250px;
+    content: url(../img/screaming.gif);
+}
+
+.panic {
+    position: absolute;
+    width: 30%;
+    top: 110px;
+    left: 600px;
+    animation-name: panicSpree;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transition: ease-in-out;
+    opacity: 0%;
+}
+
+.show {
+    opacity: 100%;
+}
+
+.showa {
+    opacity: 100%;
+}
+
+@keyframes panicSpree {
+    25% {
+        transform: scale(0.5);
+    }
+    50% {
+        transform: scale(1);
+    }
+    75% {
+        transform: scale(0.5);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+h1 {
+    position: relative;
+    font-size: 100px;
+    margin: 20px;
+    color: blue;
+    left: 5%;
+}
+
+hr {
+    position: relative;
+    top: -20px;
+    border-top: 1px solid blue;
+    width: 50%;
+    left: -25%;
+    border-radius: 5px;
+}
+
+#warning {
+    position: relative;
+    white-space: nowrap;
+    top: -900px;
+    font-size: 120px;
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: 600;
+    animation-name: warner;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    transition: linear;
+    color: rgb(94, 255, 0);
+}
+
+#warning2 {
+    position: relative;
+    white-space: nowrap;
+    top: -900px;
+    font-size: 120px;
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: 600;
+    animation-name: warner2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    transition: linear;
+    color: rgb(94, 255, 0);
+}
+
+
+#warning3 {
+    position: relative;
+    white-space: nowrap;
+    top: -900px;
+    font-size: 120px;
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: 600;
+    animation-name: warner3;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    transition: linear;
+    color: rgb(94, 255, 0);
+}
+
+
+@keyframes warner {
+    0% {
+        transform: translate(110%);
+    }
+    100% {
+        transform: translate(-110%);
+    }
+}
+
+@keyframes warner2 {
+    0% {
+        transform: translate(-110%);
+    }
+    100% {
+        transform: translate(110%);
+    }
+}
+
+@keyframes warner3 {
+    0% {
+        transform: translate(110%);
+    }
+    100% {
+        transform: translate(-110%);
+    }
+}
+
+.nones{
+    opacity: 0%;
+}
